@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Beranda"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_route"
+        android:enabled="true"
+        android:icon="@drawable/route_icon"
+        android:title="Rute"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_halte"
+        android:enabled="true"
+        android:icon="@drawable/halte"
+        android:title="Halte"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_faq2"
+        android:enabled="true"
+        android:icon="@drawable/faq_icon"
+        android:title="FAQ"
+        app:showAsAction="ifRoom" />
+</menu>

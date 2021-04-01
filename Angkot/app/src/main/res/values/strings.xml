@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Teman Asik</string>
+    <string name="title_activity_home_page">Map</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_app">Teman Asik</string>
+    <string name="title_scrollview">Rekomendasi Angkutan</string>
+    <string name="title_buttonHeader">Lihat Rute Angkutan</string>
+    <string name="title_bottomSheet">Daftar Angkutan</string>
+    <string name="button_angkot">Get Angkot</string>
+    <string name="title_activity_pickup_penumpang">PickupPenumpangActivity</string>
+    <string name="title_activity_searching">SearchingActivity</string>
+</resources>

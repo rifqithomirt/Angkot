@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oesmanalie.it.angkot">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logoutama"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_logoutama"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:debuggable="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AccountActivity"></activity>
+        <activity
+            android:name=".HomePageActivity"
+            android:label="@string/title_activity_home_page" />
+        <activity
+            android:name=".PickupAngkotActivity"
+            android:label="Map" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAWpzX2UIzLdKJPymURSGUa7ZS8sNMBgV4" />
+        <service
+            android:name=".HomePageActivity"
+            android:foregroundServiceType="location">
+        </service>
+
+    </application>
+
+</manifest>
