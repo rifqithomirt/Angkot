@@ -40,7 +40,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAWpzX2UIzLdKJPymURSGUa7ZS8sNMBgV4" />
+            android:value="zaSyAWpzX2UIzLdKJPymURSGUa7ZS8sNMBgV4" />
         <service
             android:name=".HomePageActivity"
             android:foregroundServiceType="location">
